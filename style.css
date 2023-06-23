@@ -103,6 +103,7 @@
 
 
 /* ex 8 */
+
 .ex-8-img{
   transition: 2s;
 }
@@ -112,10 +113,21 @@
   border-radius: 50px;
 }
 
+
+/* ex 9 */
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
+  transition: 2s;
 }
+
+.ex-9-img:hover {
+  filter: hue-rotate(90deg) grayscale(1);
+  border-radius: 50px;
+  transform: scale(1.5);
+}
+
 .ex-10-icon {
   font-size: 60px;
 }

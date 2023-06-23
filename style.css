@@ -41,11 +41,21 @@
   border-radius: 50%;
 }
 
+/* ex 4*/
+
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
+  transition: background;
+  transition-duration: 3s;
 }
+
+.ex-4-square:hover {
+  background: transparent;
+}
+
+
 .ex-5-square {
   margin: 20px;
   width: 60px;

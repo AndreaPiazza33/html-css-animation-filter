@@ -195,7 +195,7 @@
   position: absolute;
   bottom: -10px;
   right: 20%;
-  background: #f5f5f5;
+  background: #9c1e1e;
   width: 60px;
   height: 20px;
 }
@@ -231,6 +231,77 @@
     bottom: -10px;
     right: calc(100% - 60px);
   } 
+  100% {
+    bottom: -10px;
+    right: 20%;
+  }
+}
+
+
+/* ex 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+  animation: linear second-shift 2s;
+}
+@keyframes second-shift {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+  15% {
+    top: -10px;
+    left: calc(100% - 30px);
+  }
+  45%{
+    top: calc(100% - 10px);
+    left: calc(100% - 30px);
+  } 
+  60%{
+    top: calc(100% - 10px);
+    left: calc(0 - 30px);
+  }
+  75%{
+    top: calc(100% - 10px);
+    left: -30px;
+  }
+  90%{
+    top: -10px;
+    left: -30px;
+  }
+  100% {
+    top: -10px;
+    left: 10%;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation: linear second-bottom-shift 2s;
+}
+@keyframes second-bottom-shift {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+  15% {
+    bottom: -10px;
+    right: calc(100% - 30px);
+  }
+  45%{
+    bottom: calc(100% - 10px);
+    right: calc(100% - 30px);
+  } 
+  60%{
+    bottom: calc(100% - 10px);
+    right: calc(0 - 30px);
+  }
+  75%{
+    bottom: calc(100% - 10px);
+    right: -30px;
+  }
+  90%{
+    bottom: -10px;
+    right: -30px;
+  }
   100% {
     bottom: -10px;
     right: 20%;

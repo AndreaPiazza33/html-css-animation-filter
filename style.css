@@ -128,9 +128,21 @@
   transform: scale(1.5);
 }
 
+
+/* ex 10 */
+
 .ex-10-icon {
   font-size: 60px;
+  animation: linear infinite spin 1s;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
 .ex-11-icon {
   font-size: 60px;
 }
